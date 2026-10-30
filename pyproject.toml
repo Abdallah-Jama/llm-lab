@@ -1,0 +1,17 @@
+[project]
+name = "llm-lab"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Abdallah Jama", email = "abdellah4jama@gmail.com" }
+]
+requires-python = ">=3.9"
+dependencies = [
+    "openai>=2.48.0",
+    "python-dotenv>=1.2.1",
+]
+
+
+[tool.uv]
+package = false
